@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Paarth - Portfolio</title>
+  </head>
+  <body>
+    <div class="theme-toggle">
+      <i class="fa-solid fa-moon" id="theme-icon"></i>
+    </div>
+    <div class="scroll-top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <header>
+      <a href="#home" class="logo">Paarth<span>.</span></a>
+      <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content z-index-content">
+        <h3>Hi, It's</h3>
+        <h1>Paarth</h1>
+        <h3 class="typing-text">
+          I'm a <span class="typed-text"></span
+          ><span class="cursor">&nbsp;</span>
+        </h3>
+        <p>
+          Multi-Disciplinary Developer focused on AI, Security & Cloud. Building
+          in AI, Cybersecurity & DevOps while crafting scalable systems,
+          automation, and intelligent solutions.
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="btn-group">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+      <div
+        class="home-img glass-effect z-index-content"
+        data-tilt
+        data-tilt-max="15"
+      >
+        <div class="img-wrapper">
+          <img src="main.jpg" alt="Paarth's Avatar" />
+        </div>
+      </div>
+      <div class="glow-bg"></div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+      <div class="about-content">
+        <div class="about-text glass-card" data-tilt data-tilt-max="5">
+          <h3>Multi-Disciplinary Developer</h3>
+          <p>
+            Hello! I'm Paarth, a BCA student and cross-domain tech learner
+            passionate about turning ideas into intelligent systems. I enjoy
+            exploring the intersection of AI and security to build practical,
+            real-world solutions.
+          </p>
+          <p>
+            My journey began with web development and expanded into Artificial
+            Intelligence, Cybersecurity, DevOps, and Cloud Computing. I am
+            especially driven by scalable systems, automation, and crafting
+            solutions with code and intelligence.
+          </p>
+          <a href="#" class="btn">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container">
+        <div class="skill-category glass-card">
+          <h3>Frontend</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fa-brands fa-html5"></i><span>HTML</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-css3-alt"></i><span>CSS</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-square-js"></i><span>JavaScript</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-react"></i><span>React</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <h3>Backend</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fa-brands fa-node-js"></i><span>Node.js</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-php"></i><span>PHP</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-solid fa-database"></i><span>MySQL/MongoDB</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <h3>Programming</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fa-brands fa-c"></i><span>C/C++</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-java"></i><span>Java/C#</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-brands fa-python"></i><span>Python</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-solid fa-r"></i><span>R</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <h3>Tools</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fa-brands fa-git-alt"></i><span>Git/GitHub</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-solid fa-cloud"></i><span>Cloud</span>
+            </div>
+            <div class="skill-item">
+              <i class="fa-solid fa-brain"></i><span>AI/ML</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Featured <span>Projects</span></h2>
+      <div class="projects-container">
+        <div class="project-box glass-card" data-tilt data-tilt-max="10">
+          <div class="project-img">
+            <img
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+              alt="Proj 1"
+            />
+          </div>
+          <div class="project-info">
+            <h4>E-Commerce App</h4>
+            <p>Modern e-commerce platform with cart and checkout.</p>
+            <div class="tech-stack">
+              <span>React</span><span>Node</span><span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#">Demo</a><a href="#">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-box glass-card" data-tilt data-tilt-max="10">
+          <div class="project-img">
+            <img
+              src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&w=800&q=80"
+              alt="Proj 2"
+            />
+          </div>
+          <div class="project-info">
+            <h4>Data Visualizer</h4>
+            <p>Dashboard for analyzing datasets with insightful charts.</p>
+            <div class="tech-stack">
+              <span>Python</span><span>Flask</span><span>D3.js</span>
+            </div>
+            <div class="project-links">
+              <a href="#">Demo</a><a href="#">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-box glass-card" data-tilt data-tilt-max="10">
+          <div class="project-img">
+            <img
+              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80"
+              alt="Proj 3"
+            />
+          </div>
+          <div class="project-info">
+            <h4>Cloud File Manager</h4>
+            <p>Secure, cloud-based file management system.</p>
+            <div class="tech-stack">
+              <span>AWS</span><span>Express</span><span>React</span>
+            </div>
+            <div class="project-links">
+              <a href="#">Demo</a><a href="#">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="heading">My <span>Journey</span></h2>
+      <div class="timeline">
+        <div class="timeline-item glass-card" data-tilt data-tilt-max="5">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023 - Present</div>
+          <div class="timeline-content">
+            <h3>Exploring AI/ML</h3>
+            <p>
+              Diving into Python and machine learning models for data analysis.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item glass-card" data-tilt data-tilt-max="5">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022 - 2023</div>
+          <div class="timeline-content">
+            <h3>MERN Stack Dev</h3>
+            <p>Building full-stack apps with MongoDB, Express, React, Node.</p>
+          </div>
+        </div>
+        <div class="timeline-item glass-card" data-tilt data-tilt-max="5">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021 - 2022</div>
+          <div class="timeline-content">
+            <h3>Foundation</h3>
+            <p>Started BCA. Built foundation in C, C++, Java, and web tech.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Get In <span>Touch</span></h2>
+      <div class="contact-card glass-card">
+        <h3>Let's work together!</h3>
+        <p>
+          I'm interested in MERN Stack, AI/ML, and Cloud architecture
+          opportunities.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:contact@example.com" class="btn">Email Me</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2026 Paarth. All Rights Reserved.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
