@@ -1,3 +1,13 @@
+<img width="1365" height="628" alt="image" src="https://github.com/user-attachments/assets/7a7662d8-5131-45d7-8d2d-5c137ce48598" />
+<img width="1365" height="629" alt="image" src="https://github.com/user-attachments/assets/bc376ec6-c7d0-413f-a39a-81efbf5d1214" />
+<img width="1364" height="634" alt="image" src="https://github.com/user-attachments/assets/39cd32cf-b3c8-4d20-936e-845d6b140e51" />
+<img width="1365" height="629" alt="image" src="https://github.com/user-attachments/assets/d2a61594-9693-4ea4-a905-c832dafb8791" />
+<!-- <img width="1364" height="625" alt="image" src="https://github.com/user-attachments/assets/8da5d447-97b5-472d-9bd9-028e717e6458" /> -->
+<!-- <img width="1364" height="629" alt="image" src="https://github.com/user-attachments/assets/0925faf6-edd6-455f-9604-a16e08acda82" /> -->
+<img width="1365" height="626" alt="image" src="https://github.com/user-attachments/assets/0ba4ce5f-77b3-4172-86d7-c1dc20585c8c" />
+<img width="1365" height="549" alt="image" src="https://github.com/user-attachments/assets/9f37c46e-2249-4046-bb6c-02d3c204508d" />
+<img width="1365" height="141" alt="image" src="https://github.com/user-attachments/assets/ab31f9c9-37d4-414e-a2b5-3d6d2c79369f" />
+
 🚀 Paarth Portfolio
 A modern, responsive, and interactive personal portfolio website built using HTML, CSS, and JavaScript. Designed with a sleek glassmorphism-inspired interface, smooth animations, responsive layouts, and dark/light theme support, this portfolio serves as a professional platform to showcase my skills, projects, experience, and technical journey.
 
